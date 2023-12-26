@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/pexels-photo-4101143.jpeg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("images/download_image_1703613509748-transformed.jpeg");
   background-position: 50% 50%;
 }
 
@@ -115,7 +115,7 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    background-position: 14.49% 0%;
+    background-position: 6.72% 50%;
   }
 
   .u-section-1 .u-sheet-1 {
@@ -124,11 +124,22 @@
 
   .u-section-1 .u-text-1 {
     font-size: 2.25rem;
-    margin-top: 119px;
+    margin-top: 247px;
+    margin-right: -25px;
   }
 
   .u-section-1 .u-text-2 {
     font-size: 1rem;
+    width: auto;
+    margin-top: 7px;
+  }
+
+  .u-section-1 .u-form-1 {
+    height: 126px;
+    margin-top: 26px;
+    margin-bottom: 17px;
+    margin-right: initial;
+    margin-left: initial;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 495px;
@@ -746,7 +757,7 @@
 
 .u-section-5 .u-image-1 {
   min-height: 620px;
-  background-image: url("images/pexels-photo-4098374.jpeg");
+  background-image: url("images/IMG_2187.jpeg");
   background-position: 50% 50%;
 }
 
@@ -859,19 +870,42 @@
 
 @media (max-width: 575px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 339px;
+    min-height: 982px;
+  }
+
+  .u-section-5 .u-layout-wrap-1 {
+    margin-bottom: 11px;
+  }
+
+  .u-section-5 .u-layout-cell-1 {
+    min-height: 636px;
+  }
+
+  .u-section-5 .u-container-layout-1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .u-section-5 .u-text-1 {
+    font-weight: 700;
+    margin-left: 11px;
+    margin-right: 11px;
   }
 
   .u-section-5 .u-text-2 {
-    margin-right: 0;
+    font-size: 2rem;
+    margin-right: -27px;
+    margin-left: 11px;
   }
 
   .u-section-5 .u-text-3 {
-    margin-right: 0;
+    margin-right: 10px;
+    margin-left: 11px;
   }
 
   .u-section-5 .u-image-1 {
-    min-height: 264px;
+    min-height: 459px;
+    background-position: 50% 11.55%;
   }
 } .u-section-6 {
   background-image: none;
