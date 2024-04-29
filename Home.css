@@ -469,42 +469,31 @@
 
   .u-section-2 .u-repeater-1 {
     grid-gap: 50px;
+    max-width: 87vw !important;
   }
 
   .u-section-2 .u-container-layout-3 {
-    padding-right: 801px;
     padding-bottom: 0;
-    padding-left: 58px;
   }
 
   .u-section-2 .u-container-layout-4 {
-    padding-right: 801px;
     padding-bottom: 0;
-    padding-left: 58px;
   }
 
   .u-section-2 .u-container-layout-5 {
-    padding-right: 801px;
     padding-bottom: 0;
-    padding-left: 58px;
   }
 
   .u-section-2 .u-container-layout-6 {
-    padding-right: 801px;
     padding-bottom: 0;
-    padding-left: 58px;
   }
 
   .u-section-2 .u-container-layout-7 {
-    padding-right: 801px;
     padding-bottom: 0;
-    padding-left: 58px;
   }
 
   .u-section-2 .u-container-layout-8 {
-    padding-right: 801px;
     padding-bottom: 0;
-    padding-left: 58px;
   }
 }.u-section-3 .u-sheet-1 {
   min-height: 100vh;
