@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/logo-color.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: blue;
+      }
+      body {
+        background-color: rgb(53, 18, 53);
+      }
+      .container {
+        background-color: white;
+        border: 2x solid red;
+        display: block;
+        height: 880px;
+        width: 450px;
+        margin: auto;
+        margin-top: 50px;
+        padding: 20px;
+        border-radius: 25px;
+      }
+      .box {
+        /* background-color: blue; */
+        height: 370px;
+        width: 400px;
+        border-radius: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        /* align-items: center; */
+      }
+      .code {
+        width: 100%;
+        height: 100%;
+        border-radius: 25px;
+      }
+      .me{
+        display: inline-block;
+        margin: auto;
+        height: 50px;
+        width: 50px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <p><center><h1>Here are the steps to book a session with <br>Coach Vanshika:</center></h1>
+          <br>
+          <br>
+
+          1. Scan the QR code below to make the payment according to the plan you want to take. ( Standard or Advanced)
+          <br>
+          <br>
+          2. After making the payment, take a screenshot of the transaction.
+          <br>
+          <br>
+          3. Send the screenshot of the payment along with your details (name, preferred session time, and contact information) to the mobile number: 9817829290 for confirmation.
+          <br>
+          <br>
+        <img  class="code" src="./images/qrcode.png" alt="Qr code image" />
+        <br/>
+        <center><img src="./images/namelogo.png" alt="My bitmoji image" class="me"> 
+        <h3 class="why"></h3>Pay Vanshika Singh</center></h3>
+        <br/>
+          
+        <center>Thank you for choosing Coach Vanshika!</center></p>
+      </div>
+    </div>
+  </body>
+</html>
